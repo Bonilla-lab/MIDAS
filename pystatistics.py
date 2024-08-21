@@ -64,15 +64,15 @@ def label_statistics(intensity_image: np.ndarray, label_image: np.ndarray, size:
 
         if size:
             for i, value in enumerate(shape_stats.GetEquivalentEllipsoidDiameter(l)):
-                _append_to_column(results, "equivalent_ellipsoid_diameter_" + str(i) + " [\u03BCm]", value*lstat_scale)
-            _append_to_column(results, "equivalent_spherical_perimeter [\u03BCm]", shape_stats.GetEquivalentSphericalPerimeter(l)*lstat_scale)
-            _append_to_column(results, "equivalent_spherical_radius [\u03BCm]", shape_stats.GetEquivalentSphericalRadius(l)*lstat_scale)
-            _append_to_column(results, "number_of_pixels", shape_stats.GetNumberOfPixels(l)*lstat_scale.^2)
+                _append_to_column(results, "equivalent_ellipsoid_diameter_" + str(i) + " [\u03BCm]", value/lstat_scale)
+            _append_to_column(results, "equivalent_spherical_perimeter [\u03BCm]", shape_stats.GetEquivalentSphericalPerimeter(l)/lstat_scale)
+            _append_to_column(results, "equivalent_spherical_radius [\u03BCm]", shape_stats.GetEquivalentSphericalRadius(l)/lstat_scale)
+            _append_to_column(results, "number_of_pixels", shape_stats.GetNumberOfPixels(l)/lstat_scale.^2)
             _append_to_column(results, "number_of_pixels_on_border", shape_stats.GetNumberOfPixelsOnBorder(l))
 
         if perimeter:
-            _append_to_column(results, "perimeter [\u03BCm]", shape_stats.GetPerimeter(l)*lstat_scale)
-            _append_to_column(results, "perimeter_on_border [\u03BCm]", shape_stats.GetPerimeterOnBorder(l)*lstat_scale)
+            _append_to_column(results, "perimeter [\u03BCm]", shape_stats.GetPerimeter(l)/lstat_scale)
+            _append_to_column(results, "perimeter_on_border [\u03BCm]", shape_stats.GetPerimeterOnBorder(l)/lstat_scale)
             _append_to_column(results, "perimeter_on_border_ratio", shape_stats.GetPerimeterOnBorderRatio(l))
 
         if moments:
