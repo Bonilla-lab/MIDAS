@@ -67,7 +67,7 @@ def label_statistics(intensity_image: np.ndarray, label_image: np.ndarray, size:
                 _append_to_column(results, "equivalent_ellipsoid_diameter_" + str(i) + " [\u03BCm]", value/lstat_scale)
             _append_to_column(results, "equivalent_spherical_perimeter [\u03BCm]", shape_stats.GetEquivalentSphericalPerimeter(l)/lstat_scale)
             _append_to_column(results, "equivalent_spherical_radius [\u03BCm]", shape_stats.GetEquivalentSphericalRadius(l)/lstat_scale)
-            _append_to_column(results, "number_of_pixels", shape_stats.GetNumberOfPixels(l)/(lstat_scale**2))
+            _append_to_column(results, "number_of_pixels", shape_stats.GetNumberOfPixels(l)/(lstat_scale ** 2))
             _append_to_column(results, "number_of_pixels_on_border", shape_stats.GetNumberOfPixelsOnBorder(l))
 
         if perimeter:
