@@ -3,6 +3,10 @@
 
 This repository contains the Jupyter Notebook & Google Collab link to an image analysis workflow to segment and quantify droplets in microscopy images (MIcroscopic Droplet AnalysiS-MIDAS). It is written for Python 3.10 and based on the existing segmentation algorithm Cellpose. The notebook segments and then extracts data from the images. It has been specifically adapted to segment droplets with large variations in size within the same image. 
 
+**The Google Collab can be accessed through** https://colab.research.google.com/drive/1E9HyJT9hR5GUlWsP921ijaXZRIa2Ma5X#scrollTo=O98bFwVe_9mR
+
+Please make sure to create a copy in your own Google Drive under File -> "Save a copy in Drive"
+
 **For more information and use-cases please see the following pre-print paper** 
 -https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4941219
 
@@ -15,7 +19,7 @@ If you apply the workflow, please cite as (insert)
 - A Jupyter Notebook of the google collab for offline use
 - pystatistics.py & midassegmentation.py for the loops and operations
 - A post-trained Cellpose model using images from food colloids, specifically emulsion and foam droplets to enhance the native capabilities of the Cellpose algorithm
-- A folder of examplary images of Confocal, Brightfield and Coherent Anti-stokes Raman Scattering Microscopy you are free to test this or other image analysis algortihms in case you dont have your own.
+- A folder of examplary images of emulsion droplets through Confocal, Brightfield and Coherent Anti-stokes Raman Scattering Microscopy you are free to test this or other image analysis algortihms in case you dont have your own.
 
 Python Libraries used:
 
