@@ -15,6 +15,7 @@ If you apply the workflow, please cite as (insert)
 - A Jupyter Notebook of the google collab for offline use
 - pystatistics.py & midassegmentation.py for the loops and operations
 - A post-trained Cellpose model using images from food colloids, specifically emulsion and foam droplets to enhance the native capabilities of the Cellpose algorithm
+- A folder of examplary images of Confocal, Brightfield and Coherent Anti-stokes Raman Scattering Microscopy you are free to test this or other image analysis algortihms in case you dont have your own.
 
 Python Libraries used:
 
