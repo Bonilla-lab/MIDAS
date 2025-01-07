@@ -17,7 +17,7 @@ If you apply the workflow, please cite as (insert)
 **The repository includes:**
 -
 - A link to the Google Collab (https://colab.research.google.com/drive/1E9HyJT9hR5GUlWsP921ijaXZRIa2Ma5X#scrollTo=O98bFwVe_9mR)
-- A Jupyter Notebook of the google collab for offline use
+- A Jupyter Notebook of the google collab for offline use. This can be done through installing Jupyter Notebook on Anaconda or other Python distributions, for this please make sure to download and incorporate the two .py files included in the repository. For more information for offline installation and how Jupyter Notebooks run, please consult **https://docs.jupyter.org/en/latest/**
 - pystatistics.py & midassegmentation.py for the loops and operations
 - A post-trained Cellpose model using images from food colloids, specifically emulsion and foam droplets to enhance the native capabilities of the Cellpose algorithm
 - A folder of examplary images of emulsion droplets through Confocal, Brightfield and Coherent Anti-stokes Raman Scattering Microscopy you are free to test this or other image analysis algortihms in case you dont have your own.
