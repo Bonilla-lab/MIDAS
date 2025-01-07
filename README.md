@@ -1,5 +1,5 @@
 **Introduction**
--
+![Alt text](Exemplary Images/Overhead Figure.png)
 
 This repository contains the Jupyter Notebook & Google Collab link to an image analysis workflow to segment and quantify droplets in microscopy images (MIcroscopic Droplet AnalysiS-MIDAS). It is written for Python 3.10 and based on the existing segmentation algorithm Cellpose. The notebook segments and then extracts data from the images. It has been specifically adapted to segment droplets with large variations in size within the same image. 
 
