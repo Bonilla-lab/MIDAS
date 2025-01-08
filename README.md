@@ -11,7 +11,9 @@ Please make sure to create a copy in your own Google Drive under File -> "Save a
 **For more information and use-cases please see the following pre-print paper** 
 -https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4941219
 
-If you apply the workflow, please cite as (insert)
+If you apply the workflow, please cite as 
+
+_"Saalbrink, Jens and Loo, Tricia Y. J. and Mertesdorf, Julia and Xu, Peidi and Pedersen, Mie T. and Clausen, Mathias Porsmose and Bonilla, Jose C., Quantifying Microscopic Droplets in Colloidal Systems Through Machine Learning-based Image Analysis Available at SSRN: https://ssrn.com/abstract=4941219 or http://dx.doi.org/10.2139/ssrn.4941219"_
 
 
 **The repository includes:**
