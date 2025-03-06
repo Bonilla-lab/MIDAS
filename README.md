@@ -13,7 +13,8 @@ Please make sure to create a copy in your own Google Drive under File -> "Save a
 
 If you apply the workflow, please cite as 
 
-_"Saalbrink, Jens and Loo, Tricia Y. J. and Mertesdorf, Julia and Xu, Peidi and Pedersen, Mie T. and Clausen, Mathias Porsmose and Bonilla, Jose C., Quantifying Microscopic Droplets in Colloidal Systems Through Machine Learning-based Image Analysis Available at SSRN: https://ssrn.com/abstract=4941219 or http://dx.doi.org/10.2139/ssrn.4941219"_
+Jens Saalbrink, Tricia Y.J. Loo, Julia Mertesdorf, Peidi Xu, Mie T. Pedersen, Mathias P. Clausen, Jose C. Bonilla,
+Quantifying microscopic droplets in colloidal systems through machine learning-based image analysis, Food Hydrocolloids,Volume 166,2025,111301,ISSN 0268-005X,https://doi.org/10.1016/j.foodhyd.2025.111301.
 
 
 **The repository includes:**
