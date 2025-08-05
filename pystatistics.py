@@ -58,7 +58,7 @@ def label_statistics(intensity_image: np.ndarray, label_image: np.ndarray, size:
 
         if shape:
             _append_to_column(results, "elongation", shape_stats.GetElongation(l))
-            _append_to_column(results, "feret_diameter [\u03BCm]", shape_stats.GetFeretDiameter(l)*lstat_scale)
+            _append_to_column(results, "feret_diameter [\u03BCm]", shape_stats.GetFeretDiameter(l)/lstat_scale)
             _append_to_column(results, "flatness", shape_stats.GetFlatness(l))
             _append_to_column(results, "roundness", shape_stats.GetRoundness(l))
 
